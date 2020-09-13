@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kufam:ital,wght@1,500&display=swap');
+*{
+    margin:0px;
+    box-sizing: border-box;
+    padding:0px;
+}
+#navbar{
+    background-color: #d82114;
+    padding: 18px 4px;
+    font-family: 'Grandstander', cursive;
+}
+#navbar ul{
+display:flex;
+flex-direction: row;
+align-items: center;
+}
+#navbar li{
+list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 13px 20px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+
+}
+#navbar li a:hover{
+    text-decoration: black;
+
+    padding: 12px 19px;
+    color: black;
+    
+
+}
+#introSection{
+height:300px;
+font-size: 35px;
+background-color: red;
+background: center/cover no-repeat url("/static/kazuo-ota-z9aDPgeXLPI-unsplash.jpg");
+color:white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-family: 'Roboto Condensed', sans-serif;
+
+}
+#introSection div.small{
+    font-size: 27px;
+    padding: 5px;
+}
+
+#sponserSection{
+    height:300px;
+    font-family: 'Kufam', cursive;
+    background-color: #e6b6b6
+}
+#sponserSection h2{
+    text-align: center;
+    padding:18px;
+    font-size: 28px;
+    font-weight: bold;
+}
+#sponsors{
+    height:95px;
+    max-width:500px;
+    margin: 30px auto;
+
+}
+.spimage{
+    height:80%;
+}
+#footer{
+    height:30px;
+    background-color:black;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Kufam', cursive;
+}
+#missionSection{
+    height: 250px;
+}
+#missionSection h2{
+    font-size: 28px;
+    text-align: center;
+    padding-top:12px;
+    font-family: 'Kufam', cursive;
+}
+.card {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 21%;
+    margin: 23px 75px;
+    height: 170px;
+}
+.card h3{
+    text-align: center;
+    margin:10px;
+}
+#logo{
+    display:flex;
+    color: white;
+    align-items: center;
+    margin:0px;
+    margin-right: 40px;
+    font-size: 15px;
+}
+#logo img{
+    height:30px;
+    filter: invert(1);
+}
+.card-box{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-img{
+    height:68px;
+    padding:0px 14px;
+    margin:2.5px 4.5px;
+}
+.card-img img{
+    height: inherit;
+}
+.card-content{
+    padding:24px;
+}
+.card-content p{
+    font-size: 19px;
+
+}
+
+

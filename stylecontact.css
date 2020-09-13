@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Kufam:ital,wght@1,500&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+h3{
+    text-align: center;
+    margin:12px 0px;
+}
+
+.myForm{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+
+}
+.container{
+    min-height:85vh;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.container h2{
+    font-family: 'Kufam', cursive;
+    margin:17px;
+}
+.myInput{
+width:40%;
+padding:9px;
+margin:8px;
+font-size: 16px;
+border:2px solid #9d8e8e;
+border-radius:12px;
+outline: none;
+
+}
+.btn{
+    padding:12px;
+    font-size: 12px;
+    border:2px solid black;
+    border-radius: 10px;
+    color:white;
+    background:#d82114;
+    width:90px;
+    cursor:pointer;
+}
